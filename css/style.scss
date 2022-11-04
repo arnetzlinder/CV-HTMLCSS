@@ -1,0 +1,82 @@
+$color: #C1ECF7;
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    background-color: $color;
+    color: #3A4478;
+    background-image: url("../images/gatis-marcinkevics-a5uptAdUmjE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+.wholepage {
+    margin: 0 auto 0 auto;
+    padding-left:2em;
+    padding-right:2em;
+    box-sizing: border-box;
+}
+
+@import 'header';
+@import 'main';
+
+@keyframes moveMe {
+    from {font-family:'Times New Roman';
+    }
+    to { font-family:'Fasthand';
+    }
+}
+.moveme {
+    animation: moveMe 4s infinite reverse;
+}
+@media only screen and (min-width: 1024px) {
+    .wholepage {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .page1 {
+        background-image: url("../images/Colorful-tshirts-on-black-background.jpg");
+    }
+    body {
+        display: block;
+      }
+    .name a {
+        transition: all 0.3s ease-in-out;
+    }
+    .name a:hover {
+        left: 15px;
+        cursor: pointer;
+    }
+    .navbar-ul a:hover {
+        text-decoration: none;
+        color:#470b39;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr 2fr 2fr;
+        gap: 10px;
+        max-height: 180rem;
+    }
+    .presentation {
+        grid-row: 1 / 4;
+        min-width: 22rem;
+    }
+    .personal {
+        grid-column: 2 / 5;
+        grid-row: 1 / 2;
+    }
+    .FED {
+        grid-column: 2 / 5;
+        grid-row: 2 / 3;
+    }
+    .education {
+        grid-column: 2 / 5;
+        grid-row: 3 / 4;
+    }
+    .solve {
+        grid-column: 1 / 5;
+        grid-row: 4 / 5;
+        width: 94%
+    }
+}

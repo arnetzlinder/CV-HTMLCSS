@@ -1,0 +1,199 @@
+p {
+    line-height: 1.6rem;
+}
+.replace {
+    margin: 5px;
+}
+.page1 {
+    background-image: url("../images/Colorful_tshirts-on-black-background-mobile.jpg"); /*Sytt och fotat av Susanne Arnetz Linder, tygdesign PinkPooDesignAB */
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-radius: 20px;
+    padding: 15px;
+}
+.name {
+    position: relative;
+    margin: 0 auto 0 auto;
+    font-weight: normal;
+    font-size: 2rem;;
+    text-shadow: 4px 4px 12px #d200a2, 4px 4px 24px #d200a2;
+    color: $color;
+    padding: 1rem;
+    padding-bottom: 5px;
+    top: 2.3em;
+    background-color: black;
+    opacity: 0.7;
+    width: 60%;
+    max-width: 27rem;
+    max-height: 30%;
+    border-radius: 20px;
+    h1 {
+        text-transform: capitalize;
+        font-size: 3rem;
+        font-family: 'Fasthand', cursive, sans-serif;
+        padding-bottom: 0;
+        align-self: center;
+    }
+    p {
+        margin: 0;
+        text-align: center;
+        text-decoration: #3A4478;
+    }
+    a {
+        position: relative;
+        width: 2rem;
+        height: 2rem;
+        padding: 15px;
+        background-color: transparent;
+        color: $color;
+        text-decoration: none;
+        left: 0;
+    }
+    }
+.read {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.prespic {
+    border-radius: 100px;
+    max-width: 250px;
+    min-width: auto;
+    max-height: 250px;
+    min-height: auto;
+}
+.presentation {
+    background-color: #77DFF9;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    h2 {
+        font-family: 'Fasthand', cursive, sans-serif;
+        font-size: 2em;
+    }
+    ul {
+        padding: 0;
+        list-style: 0;
+        list-style: none;
+    }
+ }
+.personal {
+    background-color: $color;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 1rem;
+    overflow: hidden;
+    font-size: 1.3rem;
+    h2 {
+    font-size: 3rem;
+    font-family: 'Fasthand', cursive, sans-serif;
+    }
+    p {
+        line-height: 2rem;
+    }
+}
+.FED {
+    background-color: #ADD4DE;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 1rem;
+    h2 {
+    font-size: 3rem;
+    }
+    ul {
+        font-size: 1.3rem;
+        list-style: none;
+    }
+    li {
+        padding: 10px;
+    }
+}
+.education {
+    background-color: $color;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 1rem;
+    h2 {
+    font-size: 3rem;
+    margin: 0 auto;
+    font-family: 'Fasthand', cursive, sans-serif;
+    }
+    ul {
+        font-size: 1.3rem;
+    }
+    .front span {
+        font-size: 2rem;
+    }
+    span {
+    font-weight: bold;
+    }
+    li {
+        padding: 10px;
+    }
+}
+.solve {
+    background-color: #ADD4DE;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 1rem;
+    overflow: hidden;
+}
+.work {
+    background-color: #ADD4DE;
+    border-radius: 15px;
+    grid-template-rows: repeat(9, auto);
+    span {
+    font-weight: bold;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+.working {
+    margin: 0 auto 0 auto;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+}
+.details {
+    border: 2px solid #3A4478;
+    padding: 5px;
+}
+.description {
+    border: 2px solid #3A4478;
+    padding: 5px;
+}
+.details h3 {
+    margin: 0 auto;
+}
