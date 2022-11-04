@@ -23,8 +23,9 @@
 }
 .navbar-ul a:link {
     text-decoration: none;
+    color: $color;
 }
 .navbar-ul a:visited {
     text-decoration: none;
-    color: $color;
+    color: orange;
 }
